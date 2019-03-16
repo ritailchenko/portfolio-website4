@@ -1,0 +1,338 @@
+#page-body {
+	width: inherit;
+}
+
+.container-main {
+	height: 3100px;
+}
+
+.nav a {
+  font-weight: 700; 
+  font-size: calc(.7em + .7vw);
+}
+
+.navbar-toggler h2 {
+	text-transform: uppercase;
+	color:  #0d0d0d;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 700; 
+	font-size: .7em;
+	letter-spacing: 0.1em;
+	line-height: 20px;
+	opacity: .5;
+}
+
+button:focus {
+	outline: none !important;
+}
+
+.navbar-toggler {
+	position: fixed;
+	top: 10em;
+	right: 2.6em;
+	z-index: 999;
+}
+
+.navbar-toggler h2:hover {
+	opacity: 1;
+}
+
+.bg-faded {
+    background-color: white;
+}
+
+.bg-inverse {
+	background-color: #333333;
+	height: 15em;
+	text-align: center;
+	padding-top: 6em;
+}
+
+.bg-inverse h4 {
+  color: #ffffff;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 1.3em; 
+  line-height: 26px;
+  letter-spacing: .08em;
+  font-weight: 700;
+}
+
+nav ul {
+	margin-left: -3em;
+}
+
+.navbar-light {
+	padding: 0;
+}
+
+.footercontainer p {
+  font-size: .8em;
+}
+
+.footercontainer {
+  height: 250px;
+}
+
+i {
+	width: .5em;
+}
+
+.col-md-4 {
+    margin-top: -1.5em;
+}
+
+.geo-portraits {
+	background: url('../img/7.jpg');
+	background-repeat: no-repeat;
+    position: relative;
+	height: 430px;
+	margin-top: 15em;
+}
+
+
+h5 {
+  font-family: 'Josefin Sans';
+  font-weight: 400; 
+}
+
+h1 {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 84px;
+}
+
+.caption {
+	margin-left: 1em;
+	margin-top: -23em;
+	position: absolute;
+	z-index: 99;
+}
+
+h6 {
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	float: left;
+	font-weight: 700;
+	color: #0d0d0d;
+	font-size: 16px;
+}
+
+p {
+	font-family: 'Lato';
+	font-weight: 300;
+	margin-top: 3em;
+}
+
+.main-text {
+	margin-top: 10em;
+}
+
+img {
+	width: 100%;
+	height: 23em;
+}
+
+.card-deck-wrapper {
+	margin-top: 10em;
+}
+
+.card {
+	border: none;
+	background-attachment: fixed;
+}
+
+.nextpage {
+	margin-top: 19em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nextpage a {
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	color: #0d0d0d !important;
+	text-transform: uppercase;
+
+}
+
+.nextpage .first {
+	text-align: right;
+}
+
+.nextpage .middle {
+	text-align: center;
+	margin-top: 5%;
+}
+
+
+.nextpage .middle a:hover {
+	color: #FF4300 !important;
+}
+
+.first img {
+	opacity: .7;
+	height: 50%;
+	width: 50%;
+
+   transition: all .4s ease;
+
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+}
+
+.first img:hover {
+	opacity: 1;
+	height: 55%;
+	width: 55%;
+}
+
+.first a {
+	position: absolute;
+	z-index: 2;
+	right: 47%;
+	top: 25%;
+
+	transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+}
+
+.first:hover a {
+	transform: translateX(17%);
+}
+
+.last a {
+	position: absolute;
+	z-index: 2;
+	top: 25%;
+	left: 61%;
+
+   transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+}
+
+.last:hover a {
+	transform: translateX(-17%);
+}
+
+
+.last img {
+	height: 60%;
+	width: 65%;
+	opacity: .7;
+
+	transition: all .4s ease;
+
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+}
+
+.last img:hover {
+	opacity: 1;
+	height: 61%;
+	width: 70%;
+}
+
+.sk-cube-grid {
+  width: 60px;
+  height: 60px;
+  margin: 400px auto;
+}
+
+@media only screen and (max-width: 768px) {
+	.caption {
+		margin-left: 10em;
+	}
+
+	h1 {
+		font-size: 64px;
+	}
+
+	img {
+		height: 14em;
+	}
+
+	.nextpage .middle {
+		margin-top: 0px;
+	}
+
+	.container-main {
+		height: 170em;
+	}
+
+	.container {
+		padding-left: 0px;
+		padding-right: 0px;
+		max-width: 676px !important;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.caption {
+		margin-left: 5em;
+	}
+
+	.container-main {
+		padding-right: .3em;
+		padding-left: .3em;
+	}
+
+	 #logo {
+	  width: 31px;
+	  }
+
+	img {
+		height: 30em;
+	}
+
+	.main-text {
+		margin-top: 7em;
+	}
+
+	.row {
+		margin-left: 0px;
+	}
+
+	.card-deck-wrapper {
+		margin-top: 6em;
+	}
+
+	.container-main {
+		height: 550em;
+	}
+
+	.nextpage {
+		margin-top: 8em;
+	}
+
+	.last a {
+		left: 55%;
+	}
+
+	.first a {
+		right: 37%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

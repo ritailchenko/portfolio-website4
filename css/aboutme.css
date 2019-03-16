@@ -1,0 +1,139 @@
+body {
+	color: #252323;
+}
+373F51
+5E565A
+
+a:visited {
+	color: black !important;
+}
+
+.nav a:hover {
+  color: #FF4300 !important;
+}
+
+.start h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 66px;
+  text-align: right;
+  letter-spacing: 0.04em;
+  line-height: 72px;
+}
+
+.start {
+	position: absolute;
+	top: 20em;
+	left: 30em;
+}
+
+.footercontainer p {
+	font-size: 1em;
+}
+
+#container
+{
+    height:2000px;
+    position: absolute;
+	top: 57em; 
+	width: 70%;
+	margin-left: 19em;   
+}
+
+#container DIV
+{ 
+    padding: 7px; 
+}
+
+.hideme
+{
+    opacity:0;
+}
+
+.hideme h4 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 77px;
+	letter-spacing: 0.08em;
+	line-height: 80px;
+	color: #252323;
+}
+
+#container h3 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: right;
+	margin-top: 7em;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 0.08em;
+	font-size: 34px;
+    line-height: 42px;
+}
+
+.container-main {
+	height: 3100px;
+}
+
+.footercontainer {
+	height: 230px;
+}
+
+.sk-cube-grid {
+  width: 60px;
+  height: 60px;
+  margin: 400px auto;
+}
+
+@media only screen and (max-width: 900px) {
+
+
+  #container
+{
+    height:2000px;
+    position: absolute;
+	top: 57em; 
+	width: 99%;
+	margin-left: 2em;   
+}
+
+#container h3 {
+	text-align: left;
+	font-size: 30px;
+}
+
+.container-main {
+	height: 3900px;
+}
+
+.start {
+	position: absolute;
+	top: 20em;
+	left: 1em;
+	width: 90%;
+}
+}
+
+@media only screen and (max-width: 480px) {
+		 #logo {
+  width: 31px;
+  }
+
+  .hideme h4 {
+	font-size: 57px;
+	line-height: 60px;
+}
+
+#container {
+	width: 90%;
+}
+}
+
+
+
+
+
+
+
+
+

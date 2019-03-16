@@ -1,0 +1,195 @@
+.geo-portraits {
+	background: url('../img/33.jpg');
+	background-repeat: no-repeat;
+	position: relative;
+	height: 600px;
+}
+
+.caption {
+	margin-left: 1em;
+	margin-top: -40em;
+}
+
+.col-sm-push-1 p {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.last {
+	width: 17em;
+	height: 15em;
+}
+
+.last a {
+	top: 13%;
+}
+
+.wrapper img {
+	height: 45em;
+	width: 47%;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content:center;
+}
+
+.wrapper {
+	display: flex;
+	margin-top: 13em;
+}
+
+ .second img {
+	height: 29em;
+	width: 43%;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content:center;
+}
+
+.second {
+	margin-top: 6em;
+}
+
+.third {
+	margin-top: 6em;
+}
+
+.container-main {
+	height: 3300px;
+}
+
+@media only screen and (max-width: 768px) {
+
+	#geo-portraits {
+	background: url('../img/5.jpg');
+	background-repeat: no-repeat;
+	height: 400px;
+   }
+
+   .navbar-toggler {
+		top: 7em;
+	}
+
+	.caption {
+	margin-left: 2em;
+   }
+
+   .caption h5 {
+		font-size: 1em;
+	}
+
+	.caption h1 {
+		font-size: 3em;
+	}
+
+	.wrapper img {
+	height: 25em;
+	width: 47%;
+	}
+
+	.wrapper {
+		width: 99%;
+		margin-top: 7em;
+	}
+
+	.second {
+	margin-top: 3em;
+    }
+
+	.third {
+		margin-top: 3em;
+	}
+
+	.last {
+	width: 10em;
+	height: 9em;
+    }
+
+    .nextpage {
+    	margin-top: 7em;
+    }
+
+    .container-main {
+    	height: 2600px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    	#logo {
+		width: 30px;
+	}
+
+	.wrapper img {
+	height: 19em;
+	width: 47%;
+	}
+
+	.second {
+	margin-top: 1em;
+    }
+
+	.third {
+		margin-top: 1em;
+	}
+
+    .one {
+    	margin-top: 2em;
+    }
+
+    .last {
+	width: 8em;
+	height: 7em;
+    }
+
+    .last a {
+    	margin-top: -5%;
+    }
+
+    .first img{
+    	width: 90%;
+    }
+
+    .first a {
+    	top: 15%;
+    }
+
+    .container-main {
+  	height: 2200px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
